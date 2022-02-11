@@ -92,7 +92,7 @@ export default class Olympic extends React.Component {
           _this.loadingProcessTimeout && clearTimeout(_this.loadingProcessTimeout);
           _this.loadingProcessTimeout = setTimeout(() => {
             _this.setState({ loadingProcess: Math.floor(loaded / total * 100) });
-            Animations.animateCamera(camera, controls, { x: 0, y: -1, z: 20 }, { x: 0, y: 0, z: 0 }, 3600, () => {});
+            Animations.animateCamera(camera, controls, { x: 0, y: -1, z: 50 }, { x: 0, y: 0, z: 0 }, 3600, () => {});
           }, 800);
         } else {
           _this.setState({ loadingProcess: Math.floor(loaded / total * 100) });
