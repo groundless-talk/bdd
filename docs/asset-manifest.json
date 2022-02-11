@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.2a3deccd.css",
-    "main.js": "./static/js/main.a1225c0f.js",
+    "main.js": "./static/js/main.b40036a7.js",
     "static/js/27.0b990f0b.chunk.js": "./static/js/27.0b990f0b.chunk.js",
     "static/media/land.glb": "./static/media/land.c4cc5ed7502f866ee6dc.glb",
     "static/media/bingdwendwen.glb": "./static/media/bingdwendwen.9cd9671b4f594f3679bc.glb",
@@ -29,6 +29,6 @@
   },
   "entrypoints": [
     "static/css/main.2a3deccd.css",
-    "static/js/main.a1225c0f.js"
+    "static/js/main.b40036a7.js"
   ]
 }
