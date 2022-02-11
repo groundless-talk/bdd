@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './containers/Home/index';
 
 import Olympic from './containers/Olympic/index';
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route element={ <Home /> } path="/" />
+          <Route element={ <Home /> } path="/home" />
           <Route element={ <Olympic /> } path="/olympic" />
         </Routes>
       </Router>
